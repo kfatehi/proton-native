@@ -5,6 +5,9 @@ const getCurrentDialog = {
   Open() {
     return libui.UiDialogs.openFile(CURRENT_WINDOW);
   },
+  OpenFolder() {
+    return libui.UiDialogs.openFolder(CURRENT_WINDOW);
+  },
   Save() {
     return libui.UiDialogs.saveFile(CURRENT_WINDOW);
   },

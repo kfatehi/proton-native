@@ -36,11 +36,12 @@ What type the dialog is. The current types are:
 - Message - a simple message
 - Error - an error message
 - Open - open a file
+- OpenFolder - open a folder
 - Save - save a file
 
 | **Type** | **Required** |
 | --- | --- |
-| enum('Message', 'Error', 'Open', 'Save') | Yes |
+| enum('Message', 'Error', 'Open', 'OpenFolder', 'Save') | Yes |
 
 ### options
 
